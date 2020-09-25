@@ -22,6 +22,7 @@
 	--color-ftr-social-link: rgba(255, 255, 255, 0.1);
 }
 /* Общее форматирование */
+
 body {
 	background-color: var(--primary-bg-color);
 	color: var(--color-main-text);
@@ -33,7 +34,6 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
-
 ul {
 	list-style: none;
 	padding: 0;

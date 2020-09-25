@@ -1,0 +1,67 @@
+.form-subscription {
+	display: flex;
+	align-items: flex-end;
+}
+.form-subscription__input {
+	width: 358px;
+	height: 50px;
+	outline: none;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 4px;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: transparent;
+
+	font-size: 16px;
+	color: $white;
+}
+
+.form-subscription__input:focus {
+	border-color: white;
+}
+.form-subscription__input::placeholder {
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+
+	color: rgba(255, 255, 255, 0.6);
+}
+.form-subscription__btn {
+	display: inline-flex;
+	align-items: center;
+	padding-left: 28px;
+	padding-right: 28px;
+	margin-left: 12px;
+	height: 50px;
+	padding: 10px 29px;
+	border: none;
+	border-radius: 4px;
+
+	font-size: 16px;
+	font-weight: 700;
+	/* line-height: 1.88; */
+	letter-spacing: 0.06em;
+
+	color: $white;
+	background-color: $accent;
+	cursor: pointer;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-subscription__icon-send {
+	fill: $white;
+	margin-left: 10px;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-subscription__btn:focus,
+.form-subscription__btn:hover {
+	background-color: $white;
+	color: $accent;
+}
+.form-subscription__btn:focus .form-subscription__icon-send,
+.form-subscription__btn:hover .form-subscription__icon-send {
+	fill: $accent;
+}

@@ -1,0 +1,15 @@
+.header__contacts-list {
+	margin-left: auto;
+}
+
+.header__menu-list .menu__link,
+.header__contacts-list .contacts__item {
+	padding-top: 24px;
+	padding-bottom: 26px;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__menu-list .menu__link {
+	color: $color-main-text;
+}

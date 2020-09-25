@@ -1,0 +1,7 @@
+.contacts__item {
+	display: flex;
+	align-items: center;
+	color: $color-secondary-text;
+	transition-duration: 250ms;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
