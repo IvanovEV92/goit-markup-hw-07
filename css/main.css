@@ -79,21 +79,23 @@ p {
   margin-bottom: 0px;
 }
 
-.section__title {
+.section {
   font-style: normal;
+}
+
+.section__title {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .section__text {
   color: #757575;
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

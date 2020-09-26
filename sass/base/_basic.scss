@@ -74,21 +74,20 @@ p {
 }
 // общие стили текста
 .section {
+	font-style: normal;
 	&__title {
-		font-style: normal;
+		margin-top: 0px;
+		margin-bottom: 0px;
 		font-weight: 700;
 		font-size: 36px;
 		line-height: 1.17;
 		text-align: center;
 		letter-spacing: 0.03em;
 		color: $color-main-text;
-		margin-top: 0px;
-		margin-bottom: 0px;
 	}
 
 	&__text {
 		color: $color-secondary-text;
-		font-style: normal;
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 1.71;
