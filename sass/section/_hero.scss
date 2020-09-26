@@ -13,40 +13,14 @@
 	background-size: cover;
 	background-position: 0px 0px;
 	color: $white;
-}
-
-.hero__title {
-	font-weight: 900;
-	font-size: 42px;
-	line-height: 1.36;
-	letter-spacing: 0.06em;
-	text-transform: uppercase;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 30px;
-	text-align: center;
-}
-
-.hero__btn {
-	display: inline-block;
-	background-color: $accent;
-	color: $white;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 1.87;
-	min-width: 200px;
-	padding: 10px 32px;
-	border-radius: 4px;
-
-	cursor: pointer;
-	border: none;
-	border-color: $accent;
-	transition-duration: 250ms;
-	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero__btn:focus,
-.hero__btn:hover {
-	background-color: $white;
-	color: $accent;
+	
+	&__title {
+		font-weight: 900;
+		font-size: 42px;
+		line-height: 1.36;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	
+	}
 }

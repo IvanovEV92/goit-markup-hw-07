@@ -31,7 +31,13 @@ img {
 	font-weight: 400;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+
+	&--policy {
+		text-decoration: underline;
+		color: $accent;
+	}
 }
+
 .container {
 	width: 1200px;
 	margin-right: auto;
@@ -66,27 +72,28 @@ p {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+// общие стили текста
+.section {
+	&__title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 36px;
+		line-height: 1.17;
+		text-align: center;
+		letter-spacing: 0.03em;
+		color: $color-main-text;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
 
-.section-text {
-	color: $color-secondary-text;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
-}
-
-.section-title {
-	font-style: normal;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.17;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: $color-main-text;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-
-.section-text--position {
-	text-align: center;
+	&__text {
+		color: $color-secondary-text;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 1.71;
+	}
+	&__text--position {
+		text-align: center;
+	}
 }

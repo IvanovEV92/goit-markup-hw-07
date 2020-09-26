@@ -1,7 +1,5 @@
 @import './utils/variables';
-@import './utils/mixins';
 @import './base/basic';
-@import './section/header';
 @import './components/logo';
 @import './components/navigation';
 @import './components/contacts';
@@ -18,3 +16,5 @@
 @import './components/form-subscription';
 @import './components/modal';
 @import './components/form-modal';
+@import './components/input';
+@import './components/checkbox';

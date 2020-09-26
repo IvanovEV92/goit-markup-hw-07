@@ -6,8 +6,12 @@
 	font-size: 26px;
 	line-height: 1.19;
 	margin-right: 93px;
-}
-
-.logo--color {
-	color: $white;
+	
+	&--accent {
+		color: $accent;
+	}
+	// Цвет текста лого в футере
+	&--color {
+		color: var(--primary-bg-color);
+	}
 }
